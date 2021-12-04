@@ -7,8 +7,5 @@ public class App {
 		s1.setDao(new MyDao()); // 
 		
 		s1.doGet();
-	System.out.println(s1.toString());
-	
-	
 	}
 }
