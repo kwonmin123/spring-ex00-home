@@ -61,12 +61,13 @@ public class Controller06 {
 		// 4.
 		// model.addAttribute("bean01", bean); // attribute의 이름이 클래스(type)의 이름(to lower
 		// camel case)과 같은 경우 생략 가능
+		// 여러개의 빈을 집어 넣을 경우 마지막 빈이 들어감
 		Bean01 bean2 = new Bean01();
 		bean2.setAge(89);
 		bean2.setName("happy");
 		model.addAttribute(bean);
 		model.addAttribute(bean2);
-
+		
 		// 할일 : view (jsp) 를 만들어서 "bean01" attribute가 있는 지 확인)
 	}
 
